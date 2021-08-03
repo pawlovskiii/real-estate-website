@@ -10,4 +10,30 @@ body {
   background-color: #333;
   font-size: 24px;
 }
+
+nav {
+  text-transform: uppercase;
+}
+
+nav .nav-link, nav a, nav i {
+  color: #fff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #039dff;
+}
+
+nav .nav-link:hover {
+  color: #039dff;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}
+
+nav .fa-bars {
+  padding: 10px;
+}
 /*# sourceMappingURL=style.css.map */
