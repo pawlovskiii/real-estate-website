@@ -7,7 +7,7 @@
 <p> </p>
 
 ## Github Pages
-https://github.com/pawlovskiii/real-estate-website
+https://pawlovskiii.github.io/real-estate-website/
 
 ## Table of contents
 * [General info](#general-info)
