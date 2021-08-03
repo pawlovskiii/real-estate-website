@@ -21,6 +21,10 @@ nav .nav-link, nav a, nav i {
   transition: color 0.3s;
 }
 
+nav .nav-link span, nav a span, nav i span {
+  color: #039dff;
+}
+
 nav a:hover {
   color: #039dff;
 }

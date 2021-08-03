@@ -9,10 +9,13 @@ body {
 
 nav {
 	text-transform: uppercase;
-	
+
 	.nav-link, a, i {
 		color: $white;
 		transition: color 0.3s;
+		span {
+			color: $blue-color;
+		}
 	}
 
 	a:hover {
