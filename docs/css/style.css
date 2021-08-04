@@ -13,6 +13,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  z-index: 1;
 }
 
 nav .nav-link,
@@ -45,6 +46,10 @@ nav .fa-bars {
   padding: 10px;
 }
 
+header {
+  color: #fff;
+}
+
 header .hero-img {
   position: relative;
   height: 100vh;
@@ -52,7 +57,7 @@ header .hero-img {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  z-index: -1;
+  z-index: 0;
 }
 
 header .hero-text {
@@ -71,7 +76,6 @@ header .hero-text {
           flex-direction: column;
   height: 100%;
   padding: 10px;
-  color: #fff;
   text-align: center;
 }
 
@@ -93,6 +97,21 @@ header .hero-shadow {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   z-index: -1;
+}
+
+header .btn-outline-light {
+  text-transform: uppercase;
+}
+
+header .fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #fff;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 900px) {
