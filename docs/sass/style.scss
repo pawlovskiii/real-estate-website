@@ -16,14 +16,14 @@ nav {
 		color: $white;
 		transition: color 0.3s;
 		span {
-			color: $red-color;
+			color: $main-color;
 		}
 	}
 	a:hover {
-		color: $red-color;
+		color: $main-color;
 	}
 	.nav-link:hover {
-		color: $red-color;
+		color: $main-color;
 	}
 	.navbar-brand {
 		font-weight: bold;
@@ -57,7 +57,7 @@ header {
 		h1 {
 			text-transform: uppercase;
 			span {
-				color: $red-color;
+				color: $main-color;
 			}
 		}
 		p {
@@ -69,7 +69,7 @@ header {
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: rgba(0, 0, 0, 0.75);
 		z-index: -1;
 	}
 }

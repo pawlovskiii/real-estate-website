@@ -26,15 +26,15 @@ nav i {
 nav .nav-link span,
 nav a span,
 nav i span {
-  color: crimson;
+  color: #d6f528;
 }
 
 nav a:hover {
-  color: crimson;
+  color: #d6f528;
 }
 
 nav .nav-link:hover {
-  color: crimson;
+  color: #d6f528;
 }
 
 nav .navbar-brand {
@@ -80,7 +80,7 @@ header .hero-text h1 {
 }
 
 header .hero-text h1 span {
-  color: crimson;
+  color: #d6f528;
 }
 
 header .hero-text p {
@@ -91,7 +91,7 @@ header .hero-shadow {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.75);
   z-index: -1;
 }
 
