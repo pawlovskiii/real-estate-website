@@ -6,9 +6,14 @@ body {
 	background-color: #333;
 }
 
+.shadow-bg {
+	background-color: rgba(0, 0, 0, 0.85);
+}
+
 // NAGIVATION
 nav {
 	text-transform: uppercase;
+	transition: background-color 0.6s;
 	z-index: 1;
 	.nav-link,
 	a,
