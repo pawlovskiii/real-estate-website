@@ -7,3 +7,11 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 	window.addEventListener('scroll', addShadow);
 });
+
+const allNavElements = document.querySelectorAll('.nav-link');
+const navHidden = document.querySelector('.navbar-collapse');
+
+allNavElements.forEach((el) =>
+	el.addEventListener('click', () => navHidden.classList.remove('show'))
+);
+
