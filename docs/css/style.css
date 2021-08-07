@@ -182,16 +182,16 @@ h2 {
   z-index: -1;
 }
 
-.aboutus-hero .portfolio-card-title {
-  font-size: 21px;
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
 }
 
-.aboutus-hero .portfolio-card-text {
-  font-size: 15px;
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
 }
 
-.aboutus-hero i {
-  font-size: 30px;
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
 }
 
 @media (min-width: 375px) {
