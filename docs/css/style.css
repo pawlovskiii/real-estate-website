@@ -111,6 +111,12 @@ header .hero-shadow {
 
 header .btn-outline-light {
   text-transform: uppercase;
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+}
+
+header .btn-outline-light:hover {
+  background-color: #fff;
 }
 
 header .fa-chevron-down {
@@ -158,57 +164,34 @@ h2 {
   color: #f56228;
 }
 
-.portfolio h3 {
-  margin-top: 40px;
-  text-transform: uppercase;
-}
-
-.portfolio i {
-  margin-top: 30px;
-  font-size: 30px;
-}
-
-.portfolio .portfolio-card-title {
-  font-size: 18px;
-}
-
-.portfolio .portfolio-card-text {
-  font-size: 14px;
-}
-
-.portfolio .portfolio-img {
+.aboutus-hero {
   position: relative;
-  height: 35vh;
   background-image: url("../img/estateSmall.jpg");
   background-size: cover;
   background-position: center;
+  color: #ddd;
   z-index: 0;
 }
 
-.portfolio .portfolio-shadow {
+.aboutus-hero .aboutus-shadow {
   position: absolute;
+  top: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.75);
   z-index: -1;
 }
 
-.portfolio .portfolio-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 50%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  color: #fff;
+.aboutus-hero .portfolio-card-title {
+  font-size: 21px;
+}
+
+.aboutus-hero .portfolio-card-text {
+  font-size: 15px;
+}
+
+.aboutus-hero i {
+  font-size: 30px;
 }
 
 @media (min-width: 375px) {
@@ -235,6 +218,9 @@ h2 {
   }
   header .hero-img {
     background-image: url("../img/skyscrapersLarge.jpg");
+  }
+  .aboutus-hero {
+    background-image: url("../img/estateLarge.jpg");
   }
 }
 /*# sourceMappingURL=style.css.map */

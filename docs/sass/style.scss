@@ -85,7 +85,13 @@ header {
 
 	.btn-outline-light {
 		text-transform: uppercase;
+		transition: background-color 0.35s;
 	}
+
+	.btn-outline-light:hover {
+		background-color: #fff;
+	}
+
 
 	.fa-chevron-down {
 		position: absolute;
@@ -134,47 +140,38 @@ h2 {
 	}
 }
 
-// newFragment
-.portfolio {
-	h3 {
-		margin-top: 40px;
-		text-transform: uppercase;
-	}
-	i {
-		margin-top: 30px;
-		font-size: 30px;
-	}
-	.portfolio-card-title {
-		font-size: 18px;
-	}
+// Refactored fragment
+.aboutus-hero {
+	position: relative;
+	background-image: url('../img/estateSmall.jpg');
+	background-size: cover;
+	background-position: center;
+	color: $light-gray;
+	z-index: 0;
 
-	.portfolio-card-text {
-		font-size: 14px;
-	}
-	.portfolio-img {
-		position: relative;
-		height: 35vh;
-		background-image: url('../img/estateSmall.jpg');
-		background-size: cover;
-		background-position: center;
-		z-index: 0;
-	}
-	.portfolio-shadow {
+	.aboutus-shadow {
 		position: absolute;
+		top: 0;
 		width: 100%;
 		height: 100%;
 		background-color: rgba(0, 0, 0, 0.75);
 		z-index: -1;
 	}
-	.portfolio-text {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 50%;
-		flex-direction: column;
-		color: $white;
+
+	.portfolio-card-title {
+		font-size: 21px;
+	}
+
+	.portfolio-card-text {
+		font-size: 15px;
+	}
+
+	i {
+		font-size: 30px;
 	}
 }
+
+
 
 @media (min-width: 375px) {
 	header {
@@ -212,5 +209,8 @@ h2 {
 		.hero-img {
 			background-image: url('../img/skyscrapersLarge.jpg');
 		}
+	}
+	.aboutus-hero {
+		background-image: url('../img/estateLarge.jpg');
 	}
 }
