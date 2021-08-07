@@ -134,6 +134,48 @@ h2 {
 	}
 }
 
+// newFragment
+.portfolio {
+	h3 {
+		margin-top: 40px;
+		text-transform: uppercase;
+	}
+	i {
+		margin-top: 30px;
+		font-size: 30px;
+	}
+	.portfolio-card-title {
+		font-size: 18px;
+	}
+
+	.portfolio-card-text {
+		font-size: 14px;
+	}
+	.portfolio-img {
+		position: relative;
+		height: 35vh;
+		background-image: url('../img/estateSmall.jpg');
+		background-size: cover;
+		background-position: center;
+		z-index: 0;
+	}
+	.portfolio-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.75);
+		z-index: -1;
+	}
+	.portfolio-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50%;
+		flex-direction: column;
+		color: $white;
+	}
+}
+
 @media (min-width: 375px) {
 	header {
 		.hero-text {
