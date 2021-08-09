@@ -55,6 +55,10 @@ nav .fa-bars {
   padding: 10px;
 }
 
+nav .active {
+  color: #f56228;
+}
+
 header {
   color: #fff;
 }
@@ -229,8 +233,8 @@ h2 {
 }
 
 @media (min-width: 992px) {
-  html {
-    scroll-padding-top: 72px;
+  nav {
+    height: 82px;
   }
   header .hero-img {
     background-image: url("../img/skyscrapersLarge.jpg");
