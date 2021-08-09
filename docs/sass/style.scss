@@ -140,7 +140,6 @@ h2 {
 	}
 }
 
-// Refactored fragment
 .aboutus-hero {
 	position: relative;
 	background-image: url('../img/estateSmall.jpg');
@@ -171,6 +170,23 @@ h2 {
 	}
 }
 
+.portfolio {
+	.carousel-item {
+		position: relative;
+	}
+
+	.carousel-caption {
+		position: absolute;
+		left: 0;
+		right: 0;
+		padding: 40px 0;
+		background-color: rgba(0, 0, 0, 0.75);
+	}
+
+	.carousel-indicators {
+		padding-bottom: 20px;
+	}
+}
 
 
 @media (min-width: 375px) {
