@@ -1,0 +1,24 @@
+{
+	"name": "real-estate",
+	"version": "1.0.0",
+	"description": "<p align=\"center\">\r <img src=\"https://www.euractiv.pl/wp-content/uploads/sites/6/2019/07/kamil-gliwinski-xcPw1-5OHTk-unsplash-800x450.jpg\" alt=\"two large trees with many branches\">\r </p>\r <h1 align=\"center\">\r     Real Estate Agency\r </h1\r <p> </p>",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"start": "parcel docs/index.html",
+    "build": "parcel build docs/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pawlovskiii/real-estate-website.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pawlovskiii/real-estate-website/issues"
+	},
+	"homepage": "https://github.com/pawlovskiii/real-estate-website#readme"
+}
