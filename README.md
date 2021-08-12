@@ -11,6 +11,30 @@ https://pawlovskiii.github.io/real-estate-website/
 
 ## Table of contents
 * [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
 ### General info 
-My demo project of real estate agency, located in Warsaw.
+My website project of real estate agency located in Warsaw.
+
+### Technologies
+It was mainly created with CSS library called Bootstrap and SaSS as a CSS preprocessor.
+Name  | Versions
+--- | --- 
+Node.js  | 16.4.0
+### Setup
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/pawlovskiii/real-estate-website
+
+# Go into the repository
+$ cd real-estate-website
+
+# Install dependencies
+$ npm install 
+
+# Run the app
+$ npm start
+```
